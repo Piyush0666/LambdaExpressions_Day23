@@ -4,6 +4,7 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 public class Regex {
+
     public static String regex;
 
     public static void name(String name) {
@@ -57,5 +58,4 @@ public class Regex {
             UserDetails.password();
         }
     }
-
 }

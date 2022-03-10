@@ -7,12 +7,11 @@ public class UserDetails extends Regex {
     public static String first_name, last_name, mail_ID, phone_number, password;
 
     public static void main(String[] args) {
-        UserDetails details = new UserDetails();
-        details.firstname();
-        details.lastname();
-        details.mail();
-        details.phonenumber();
-        details.password();
+        firstname();
+        lastname();
+        mail();
+        phonenumber();
+        password();
 
     }
 
@@ -35,6 +34,7 @@ public class UserDetails extends Regex {
         mail_ID = scan.next();
         Regex.mail(mail_ID);
     }
+
     public static void phonenumber() {
         System.out.println("\nEnter the phone number with country code and leave gap between them (E.g:91 9876543210):");
         phone_number = scan.nextLine();
@@ -47,6 +47,4 @@ public class UserDetails extends Regex {
         password = scan.nextLine();
         Regex.password(password);
     }
-
-
 }
