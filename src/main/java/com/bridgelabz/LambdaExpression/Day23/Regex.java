@@ -58,5 +58,4 @@ public class Regex {
             UserDetails.password();
         }
     }
-
 }

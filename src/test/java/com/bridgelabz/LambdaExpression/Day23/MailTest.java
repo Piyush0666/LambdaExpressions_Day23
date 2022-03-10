@@ -168,5 +168,4 @@ class MailTest {
         String check = "abc@gmail.com.1a";
         assertFalse(test.mailregex(check));
     }
-
 }
