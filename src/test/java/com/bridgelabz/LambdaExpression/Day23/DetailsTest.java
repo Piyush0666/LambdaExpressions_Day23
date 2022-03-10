@@ -17,19 +17,19 @@ public class DetailsTest {
 
     @Test
     public void firstname() {
-        String firstname = "Ragul";
+        String firstname = "Sandeep";
         assertTrue(ValidateDetailsTest.name(firstname));
     }
 
     @Test
     public void lastname() {
-        String lastname = "Kanna";
+        String lastname = "Varma";
         assertTrue(ValidateDetailsTest.name(lastname));
     }
 
     @Test
     public void mail() {
-        String mail = "ragulragi619@gmail.com";
+        String mail = "sandeepvarma619@gmail.com";
         assertTrue(ValidateDetailsTest.mail(mail));
     }
 
@@ -41,7 +41,7 @@ public class DetailsTest {
 
     @Test
     public void password() {
-        String password = "Kanna@1234";
+        String password = "Varma@1234";
         assertTrue(ValidateDetailsTest.password(password));
     }
 }

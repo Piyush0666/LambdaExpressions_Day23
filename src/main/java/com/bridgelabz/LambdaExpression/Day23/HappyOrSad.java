@@ -7,4 +7,5 @@ public class HappyOrSad {
         else
             return "SAD";
     }
+
 }
