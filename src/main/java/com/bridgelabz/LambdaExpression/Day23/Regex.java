@@ -12,6 +12,8 @@ public class Regex {
         regex.numberInput();
         regex.passwordInput1();
         regex.passwordInput2();
+        regex.passwordInput3();
+
     }
 
     public void firstNameInput() {
@@ -98,4 +100,5 @@ public class Regex {
             System.out.println("\n invalid rule 3  not passed ");
         }
     }
+
 }
