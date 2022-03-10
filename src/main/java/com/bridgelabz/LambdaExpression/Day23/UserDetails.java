@@ -12,10 +12,7 @@ public class UserDetails extends Regex {
         mail();
         phonenumber();
         password();
-
     }
-
-
     public static void firstname() {
         System.out.println("\nEnter the first name with first letter capital and name should be minimum 3 letters:");
         first_name = scan.next();
@@ -46,5 +43,6 @@ public class UserDetails extends Regex {
         System.out.println("1. minimum 8 characters\n2.At Least one uppercase\n3.At Least one numerical\n4.At Least one special character");
         password = scan.nextLine();
         Regex.password(password);
+
     }
 }
