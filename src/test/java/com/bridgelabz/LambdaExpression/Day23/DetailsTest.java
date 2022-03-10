@@ -38,4 +38,5 @@ public class DetailsTest {
         String password="kumar@1234";
         assertTrue(ValidateDetailsTest.password(password));
     }
+
 }
