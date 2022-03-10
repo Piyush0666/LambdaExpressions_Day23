@@ -45,4 +45,5 @@ public class UserDetails extends Regex {
         Regex.password(password);
 
     }
+
 }
