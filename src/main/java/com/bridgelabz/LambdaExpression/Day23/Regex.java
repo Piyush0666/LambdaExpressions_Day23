@@ -12,6 +12,8 @@ public class Regex {
         regex.numberInput();
         regex.passwordInput1();
         regex.passwordInput2();
+        regex.passwordInput3();
+        regex.passwordInput4();
     }
 
     public void firstNameInput() {
@@ -96,6 +98,17 @@ public class Regex {
             System.out.println("\n VALID  rule 3 passed " );
         } else {
             System.out.println("\n invalid rule 3  not passed ");
+        }
+    }
+    public void passwordInput4() {
+        String passwordInput4 = "PiyushVerma66@";
+        String regex = "^[a-zA-Z]{8,}[0-9]{2,}[@-_]$";
+        Pattern pattern = Pattern.compile(regex);
+        Matcher matcher = pattern.matcher(passwordInput4);
+        if (matcher.matches()) {
+            System.out.println("\n VALID  rule 4 passed " );
+        } else {
+            System.out.println("\n invalid rule 4  not passed ");
         }
     }
 }
