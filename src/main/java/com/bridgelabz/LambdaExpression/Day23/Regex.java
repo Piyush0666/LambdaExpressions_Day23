@@ -89,6 +89,7 @@ public class Regex {
             System.out.println("\n invalid rule 2  not passed ");
         }
     }
+
     public void passwordInput3() {
         String passwordInput3 = "PiyushVerma66";
         String regex = "^[a-zA-Z]{8,}[0-9]{1,}$";
@@ -100,6 +101,7 @@ public class Regex {
             System.out.println("\n invalid rule 3  not passed ");
         }
     }
+
     public void passwordInput4() {
         String passwordInput4 = "PiyushVerma66@";
         String regex = "^[a-zA-Z]{8,}[0-9]{2,}[@-_]$";
